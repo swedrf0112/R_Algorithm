@@ -9,7 +9,7 @@ NormalKernalF=function(u){
 OneKDEF=function(DataXV,BandWidth){
   
   Range=max(DataXV)-min(DataXV)
-  ObsXV=seq( min(DataXV)-0.1*Range , max(DataXV)+0.1*Range , 0.3094)
+  ObsXV=seq( min(DataXV)-0.1*Range , max(DataXV)+0.1*Range , BandWidth)
   n=length(DataXV)
   EstiDenV=vector()
   
